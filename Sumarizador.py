@@ -4,7 +4,7 @@ from transformers import pipeline
 # Título e descrição
 st.set_page_config(
     page_title="Sumarizador (Hugging Face)", layout="centered")
-st.title("📄 Sumarizador com Hugging Face")
+st.title("Sumarizador com Hugging Face")
 st.write("Este app utiliza o modelo padrão da Hugging Face para gerar um resumo.")
 
 # Entrada do texto
